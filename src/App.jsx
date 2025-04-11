@@ -12,7 +12,7 @@ function App() {
   ];
   return (
     <div className="min-h-screen w-full flex items-center justify-center bg-gray-50">
-      <div className="grid  sm:grid-cols-2 md:grid-cols-3 w-full gap-4 mx-4 sm:mx-10  ">
+      <div className="grid  sm:grid-cols-2 md:grid-cols-3 w-full gap-4 mx-4 sm:mx-10 my-4  ">
         {boxes.map((data, idx) => (
           <div
             key={idx}
